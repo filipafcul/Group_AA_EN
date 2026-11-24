@@ -1,0 +1,128 @@
+---
+title: 'Practical work: How different factors affect the time a woodlouse stays curled up?'
+subtitle: "Exploring how different external factors affect the latency time of woodlouse"
+author: "Group AA: Filipa Bento nº61969;  Matilde Alves nº63486; Silvia Santos nº63488; Tiago Martins nº63489"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+toc: true
+number-sections: true
+colorlinks: true
+format:
+  html: 
+    code-fold: true
+    html-math-method: katex
+    self-contained: true
+  pdf: 
+    geometry: 
+      - top=30mm
+      - left=20mm
+  docx: default
+editor: visual
+csl: mee.csl
+bibliography: ENrefs.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction (3/20)
+
+*This is a template for your work. You can delete the instructions, but nothing else. Instructions are in italic.*
+
+*Do not delete subheadings. If you do, the component associated with each subheading might not be considered in your final grade*
+
+*While you can add below anything you would like as Supplementary material, this component will not be graded. You are assessed by the material up to that section, with each component's weight being visible in front of each header*
+
+*Except any kind of Supplementary material, for which there is no limit but it is not graded, as noted above, **we expect to receive no more than 8 pages as a word docx**, including figures, tables and references*
+
+*Note that you can output the results as a .pdf, .docx or .html. For handing it in we will suggest you output a word file.*
+
+*This section text should be no more than 300 words*
+
+## Some tips
+
+These papers here might provide help and guidance for your task.
+
+- @Baillie2022 - how to start looking at the data
+
+- @Popovic2024 - overarching principles for reliable statistical ecology
+
+- @Zuur2009 - how to explore data before proper analysis
+
+- @Zuur2016 - how to report results from a regression analysis
+
+- @Broman2017 - how to organize data for further analysis
+
+These papers also provide a way for me to show you hot to have automatic references in this report. For that to happen, all the work you cite must be included in the file `ENrefs.bib`, in the bibtext format. This file as well as a formatting file `mee.cls` must be in the same folder as the quarto `.qmd` file. If you do not have a reference manager that handles `.bib` format, this is the time to get one. JABREF <https://www.jabref.org/>is a free reliable option.
+
+## The question (1/20)
+
+*State clearly your research question*
+
+Woodlice have a very noticeable anti-predatory protective behaviour, this animals curl up into a ball and stay motionless during a certain period of time. Having this context in mind, we come up with the following research question: How different factors affect the time a woodlouse stays curled up?
+
+## The data (1/20)
+
+*Provide the file names you handed in*
+
+- the data .xlsx:
+- the metadata .txt:
+- this report compiled as a .pdf (preferred)
+
+The data and all the files, including all the code, used for this project should be hosted in a github repository. This should be created under any user (if one of you has an account,m use it, if not, one of you must create one) and then in a repository named `Group*_EN2026PW.txt` where the "\*" is replaced by your moodle based group name.
+
+*Describe the variables collected, explaining clearly what they are*
+
+- Y response (continuous):
+
+- X1 explanatory (binary):
+
+- X2 explanatory (categorical):
+
+- X3 explanatory (continuous):
+
+*describe in the same format any additional variables you might have collected*
+
+# Methods (3/20)
+
+*Provide clear details of the sampling procedures, in particular how you chose the sampling units you chose and what have you considered to enforce randomization and avoid possible confounding factors*
+
+*This section text should be no more than 300 words*
+
+## Read the data in (1/20)
+
+*read the .xlsx into R*
+
+# Exploratory Data Analysis (4/20)
+
+*Explore the data visually and describe it using plots and summary statistics that you think are relevant, in particular highlighting results that might be relevant for your research question. No modelling or analysis is required/expected, but you can have models or analysis if you want.*
+
+*Include in here at the very least 3 graphics: y\~X1; Y\~X2 and Y\~X3, with appropriate labels, units and captions*
+
+# Discussion (4/20)
+
+*Add any relevant insights and discussion topics here*
+
+*This section text should be no more than 300 words*
+
+## Answering the question (1/20)
+
+*Describe if your data contained relevant information to answer the initial question, what were your conclusions and discuss the results given other references on the topic.*
+
+*This section text should be no more than 200 words*
+
+## If repeating the work (1/20)
+
+*Briefly describe if you repeated the work, what would you do differently? Did new questions arise? What other questions might you try to answer?*
+
+*Keep the text within the maximum 300 words*
+
+# Data collection
+
+This is not a grade section but it is mandatory. It does not contribute to the page limits above. Provide here photograph evidence of the data collection stage. We want to see you all collecting the data, the data collection setting, organisms, layout etc, and hopefully you having some fun while doing it. There is no limit to the number of photos provided, but we expect to see 3-5 photos at least where all members of the group appear in at least 1 photo.
+
+![An example figure: Rímel doing data collection at the beach](examplefig.png)
+
+# References (1/20)
+
+*The cited references will appear here, already formatted using the Methods in Ecology and Evolution format (as per the instructions in the file mee.cls, which you do not need to touch). Use references to frame the problem, to support you research question and or discussing the results.*
